@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional CV</title>
+    <style>
+        @media print {
+            body { margin: 0; }
+            .no-print { display: none; }
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #2c5f2d;
+        }
+        
+        .name {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #2c5f2d;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            font-size: 1.1em;
+            color: #666;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #2c5f2d;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #2c5f2d;
+        }
+        
+        .job-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .company-date {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .job-description {
+            margin-bottom: 20px;
+        }
+        
+        .bullet-point {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .bullet-point::before {
+            content: "•";
+            color: #2c5f2d;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        .education-item {
+            margin-bottom: 20px;
+        }
+        
+        .course-title {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .institution {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 8px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 10px;
+        }
+        
+        .skill-category {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #2c5f2d;
+        }
+        
+        .skill-category h4 {
+            margin: 0 0 8px 0;
+            color: #2c5f2d;
+            font-size: 1.1em;
+        }
+        
+        .download-btn {
+            background: #2c5f2d;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+            margin: 20px auto;
+            display: block;
+            transition: background 0.3s;
+        }
+        
+        .download-btn:hover {
+            background: #1a3a1b;
+        }
+        
+        .professional-summary {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-left: 4px solid #2c5f2d;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">Richard McArdle</div>
+        <div class="contact-info">
+            07518088552 | 033388@uhi.ac.uk | Inverness, Scotland<br>
+            r_mcardle@hotmail.co.uk
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="professional-summary">
+            <h3 style="margin-top: 0; color: #2c5f2d;">Professional Summary</h3>
+            <p>Experienced team leader with over 20 years in retail operations, now transitioning to the forestry industry. Proven track record in team management, operational excellence, and customer service. Currently completing HNC Forestry with practical experience in forest operations and machinery. Combines strong leadership skills with technical forestry knowledge and commitment to sustainable practices.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Work Experience</h2>
+        
+        <div class="job-description">
+            <div class="job-title">Team Leader, Dotcom & Fresh Departments</div>
+            <div class="company-date">Tesco | 2002 – 2023</div>
+            
+            <div class="bullet-point"><strong>Team Leadership:</strong> Led and motivated diverse teams in Dotcom and Fresh departments, ensuring smooth daily operations and maintaining high performance standards across multiple shifts.</div>
+            
+            <div class="bullet-point"><strong>Training & Development:</strong> Trained new team members on Tesco policies, operational procedures, and customer service standards, fostering a supportive and efficient work environment.</div>
+            
+            <div class="bullet-point"><strong>Operational Excellence:</strong> Consistently achieved KPIs for Dotcom orders, ensuring accurate picking and timely deliveries while maintaining exceptional customer satisfaction rates.</div>
+            
+            <div class="bullet-point"><strong>Stock Management:</strong> Managed stock levels in Fresh department, ensuring accurate inventory, proper rotation, and minimal waste through efficient stock control practices.</div>
+            
+            <div class="bullet-point"><strong>Problem-Solving:</strong> Addressed operational challenges promptly, including delivery delays and stock shortages, by coordinating with other departments and implementing practical solutions.</div>
+            
+            <div class="bullet-point"><strong>Health & Safety:</strong> Ensured compliance with health and safety regulations, particularly in handling fresh produce and maintaining clean, safe working environments.</div>
+            
+            <div class="bullet-point"><strong>Communication:</strong> Maintained clear communication with team members and management, ensuring alignment on goals and quickly addressing operational challenges.</div>
+            
+            <div class="bullet-point"><strong>Customer Focus:</strong> Demonstrated exceptional customer service, resolving queries and complaints to uphold company reputation for quality and care.</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Education & Training</h2>
+        
+        <div class="education-item">
+            <div class="course-title">HNC Forestry</div>
+            <div class="institution">Scottish School of Forestry, Inverness | 2024 – 2025</div>
+            <div class="bullet-point">Studying silviculture, forest planning, biodiversity conservation, and environmental sustainability</div>
+            <div class="bullet-point">Gaining theoretical understanding of forestry management practices, forest ecology, and sustainable land use</div>
+            <div class="bullet-point">Specialized modules in soil management and nursery practices</div>
+        </div>
+        
+        <div class="education-item">
+            <div class="course-title">Practical Preparation for the Forest Industry</div>
+            <div class="institution">Scottish School of Forestry, Inverness | 2023 – 2024</div>
+            <div class="bullet-point">Hands-on experience in forest operations including tree planting, forest maintenance, and site preparation</div>
+            <div class="bullet-point">Developed skills in operating forestry machinery: forwarders, sawmills, chainsaws, and firewood processors</div>
+            <div class="bullet-point">Studied sustainable management practices and practical challenges in forest industry operations</div>
+            <div class="bullet-point">Practical training in forestry equipment operation including tractors, quad bikes, and specialized machinery</div>
+        </div>
+        
+        <div class="education-item">
+            <div class="course-title">Health and Safety in Forestry</div>
+            <div class="institution">Certified Training | 2023</div>
+            <div class="bullet-point">Completed comprehensive training in maintaining safe working practices in forestry environments</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Key Skills & Competencies</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4>Leadership & Management</h4>
+                <p>Team leadership, staff development, performance management, strategic planning, conflict resolution</p>
+            </div>
+            <div class="skill-category">
+                <h4>Forestry Operations</h4>
+                <p>Forest machinery operation, silviculture, sustainable practices, site preparation, tree planting</p>
+            </div>
+            <div class="skill-category">
+                <h4>Technical Skills</h4>
+                <p>Chainsaw operation, forwarder operation, sawmill operation, inventory management, quality control</p>
+            </div>
+            <div class="skill-category">
+                <h4>Professional Skills</h4>
+                <p>Customer service, problem-solving, time management, health & safety compliance, communication</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Professional Attributes</h2>
+        <div class="bullet-point">Strong work ethic with over 20 years of consistent employment history</div>
+        <div class="bullet-point">Adaptable professional successfully transitioning between industries</div>
+        <div class="bullet-point">Commitment to sustainable practices and environmental responsibility</div>
+        <div class="bullet-point">Excellent communication and interpersonal skills</div>
+        <div class="bullet-point">Proven ability to work effectively under pressure and meet tight deadlines</div>
+        <div class="bullet-point">Safety-conscious with comprehensive understanding of workplace regulations</div>
+    </div>
+
+    <button class="download-btn no-print" onclick="window.print()">Download as PDF</button>
+    
+    <script>
+        // Auto-focus on print dialog when download button is clicked
+        document.querySelector('.download-btn').addEventListener('click', function() {
+            setTimeout(() => {
+                window.print();
+            }, 100);
+        });
+    </script>
+</body>
+</html>
